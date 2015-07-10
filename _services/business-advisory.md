@@ -1,6 +1,6 @@
 ---
 service-title: Business Advisory
-service-short-description: We work in partnership with our clients to help them achieve their business goals.
+service-short-description: Partnering with our clients to achieve their business goals.
 service-image-path: "/img/services/advisory.jpg"
 display-order: 2
 ---
