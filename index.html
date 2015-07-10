@@ -85,7 +85,7 @@ layout: default
                   <p>On our website, we have a library of business resources covering all aspects of running a business. The resources include information on planning, finance, marketing and management.</p>
                   <p>We would love to talk about how we could help your financial performance. Please contact us for a free consultation.</p>
                   <p>We provide advice and support to individuals and businesses.</p>
-                  <p>Whether you are an ambitious entrepreneur with a growing business, an owner of a mature company, or planning your retirement, you need an adviser who can help you achieve your goals. We gain a deep understanding of you and your aspirations and work in partnership with you to help achieve those aspirations.</p>              
+                  <p>Whether you are an ambitious entrepreneur with a growing business, an owner of a mature company, or planning your retirement, you need an adviser who can help you achieve your goals. We gain a deep understanding of you and your aspirations and work in partnership with you to help achieve those aspirations.</p>
             <!-- Hiding timeline but not destroying it. SB 10/7.
                     <ul class="timeline">
                         <li>
@@ -167,56 +167,16 @@ layout: default
                 </div>
             </div>
             <div class="row">
+              {% assign team = site.team | sort: 'display-order' %}
+              {% for member in team %}
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                        <img src="{{ member.team-member-image-path }}" class="img-responsive img-circle" alt="{{ member.team-member-first-name }} {{ member.team-member-last-name }}">
+                        <h4>{{ member.team-member-first-name }} {{ member.team-member-last-name }}</h4>
+                        <p class="text-muted">{{ member.team-member-job-title }}</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
+              {% endfor %}
             </div>
         </div>
     </section>
