@@ -27,10 +27,10 @@ layout: default
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-{{ section-icon }} fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-{{ section.section-icon }} fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="what-we-do-section-heading">{{ section-title }}</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="what-we-do-section-heading">{{ section.section-title }}</h4>
+                    <p class="text-muted">{{ section.content }}</p>
                 </div>
               {% endfor %}
               <!--Sam, if you reduce this section from 3 sections to two, then you should write an if/else loop above that incorporates this for the 3 loop solution and outputs a 6 grid wide solution for the 2 loop. SB 10/7 -->
