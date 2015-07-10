@@ -1,0 +1,37 @@
+---
+---
+
+    <!-- Services Modals -->
+    <!-- Use the modals below to showcase details about your services -->
+
+{% assign services = site.services | sort: 'display-order' %}
+<!-- Services in index.html need a numbered index modal to bring up. This assign, orders the services according to front matter then the for loop assigns the number related to forloop.index SB 10/7-->
+{% for service in services %}
+    <!-- Services Modal X -->
+    <div class="services-modal modal fade" id="servicesModal{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Service Details Go Here -->
+                            <h2>{{ service.service-title }}</h2>
+                            <p class="item-intro text-muted">{{ service.service-short-description }}</p>
+                            <img class="img-responsive img-centered" src="{{ service.service-image-path }}" alt="{{ service.service-title }}">
+                            <p>{{ service.content }}</p>
+                            <!-- maybe no tags are better here than putting content in <p>? SB 10/7 -->
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endfor %}

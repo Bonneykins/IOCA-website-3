@@ -1,6 +1,6 @@
 ---
 service-title: Audit & Assurance
-service-short-description: We go beyond regulatory compliance to provide independent and impartial advice that has a tangible benefit to your business.
+service-short-description: Audit is an opportunity for improved business systems.
 service-image-path: "/img/services/audit.jpg"
 display-order: 1
 ---
