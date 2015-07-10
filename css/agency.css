@@ -875,3 +875,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #4494bd;
 }
+
+/* Sam's extra's below! */
+
+/* To space out elements, mostly buttons */
+.row-buffer {
+    padding-bottom: 40px;
+}
