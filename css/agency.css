@@ -882,3 +882,13 @@ body {
 .row-buffer {
     padding-bottom: 40px;
 }
+
+.contact-text{
+   color: #222
+}
+
+@media(min-width:768px) {
+    .contact-text {
+      color: #fff
+    }
+}
