@@ -268,6 +268,7 @@ fieldset[disabled] .btn-xl.active {
         background-image:url(/img/logos/IOCA-logo-white-trans-153x51.png);
         background-repeat:no-repeat;
 }
+}
 
 header {
     text-align: center;
@@ -882,11 +883,5 @@ body {
 }
 
 .contact-text{
-   color: #222
+   color: #fff
 }
-/*
-@media(min-width:768px) {
-    .contact-text {
-      color: #fff
-    }
-} */
