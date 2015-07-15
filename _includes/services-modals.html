@@ -25,7 +25,9 @@
                             <h2>{{ service.service-title }}</h2>
                             <p class="item-intro text-muted">{{ service.service-short-description }}</p>
                             <img class="img-responsive img-centered" src="{{ service.service-image-path }}" alt="{{ service.service-title }}">
-                            <p>{{ service.content }}</p>
+                            <div class="modal-body-text-left">
+                              {{ service.content }}
+                            </div>
                             <!-- maybe no tags are better here than putting content in <p>? SB 10/7 -->
                             <button type="button" class="btn btn-primary" data-dismiss="modal"
                             onclick="dataLayer.push({

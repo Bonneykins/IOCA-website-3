@@ -8,11 +8,11 @@ Our audit and assurance team will help your business comply with government regu
 
 Audit and assurance services we offer include:
 
-Statutory Audit
-Review Engagements
-Agreed Upon Procedures Engagements
-Student Fee Protection Scheme Audits
-Ministry of Education Compliance Audits
-Due Diligence
+* Statutory Audit
+* Review Engagements
+* Agreed Upon Procedures Engagements
+* Student Fee Protection Scheme Audits
+* Ministry of Education Compliance Audits
+* Due Diligence
 
 Please contact us today to find out how we can help your business.
