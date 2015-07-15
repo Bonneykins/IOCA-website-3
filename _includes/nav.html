@@ -9,7 +9,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"></a>
+            <a class="navbar-brand page-scroll" href="#page-top"
+            onclick="dataLayer.push({
+              'event': 'nav-click',
+              'nav-clicked': 'logo-home'
+          });"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,23 +24,38 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="#what-we-do"
-                    onclick="dataLayer.push({'nav-click': 'what-we-do'});">What We Do</a>
+                    onclick="dataLayer.push({
+                      'event': 'nav-click',
+                      'nav-clicked': 'what-we-do'
+                  });">What We Do</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#services"
-                    onclick="dataLayer.push({'nav-click': 'services'});">Services</a>
+                    onclick="dataLayer.push({
+                      'event': 'nav-click',
+                      'nav-clicked': 'services'
+                    });">Services</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#about"
-                    onclick="dataLayer.push({'nav-click': 'about'});">About</a>
+                    onclick="dataLayer.push({
+                      'event': 'nav-click',
+                      'nav-clicked': 'about'
+                    });">About</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#team"
-                    onclick="dataLayer.push({'nav-click': 'team'});">Team</a>
+                    onclick="dataLayer.push({
+                      'event': 'nav-click',
+                      'nav-clicked': 'team'
+                    });">Team</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact"
-                    onclick="dataLayer.push({'nav-click': 'contact'});">Contact</a>
+                    onclick="dataLayer.push({
+                      'event': 'nav-click',
+                      'nav-clicked': 'contact'
+                    });">Contact</a>
                 </li>
             </ul>
         </div>

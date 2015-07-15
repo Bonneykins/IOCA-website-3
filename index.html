@@ -8,7 +8,11 @@ title: IOCA Chartered Accountants - Tauranga
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To Our Studio!</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#what-we-do" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#what-we-do" class="page-scroll btn btn-xl"
+                onclick="dataLayer.push({
+                  'event': 'button-click',
+                  'button-clicked': 'header-call-to-action'
+              });">Tell Me More</a>
             </div>
         </div>
     </header>
@@ -52,7 +56,11 @@ title: IOCA Chartered Accountants - Tauranga
               {% assign services = site.services | sort: 'display-order' %}
               {% for service in services %}
                 <div class="col-md-4 col-sm-6 services-item">
-                    <a href="#servicesModal{{ forloop.index }}" class="services-link" data-toggle="modal">
+                    <a href="#servicesModal{{ forloop.index }}" class="services-link" data-toggle="modal"
+                    onclick="dataLayer.push({
+                      'event': 'service-click',
+                      'service-clicked': '{{ service.service-title }}'
+                    });">
                         <div class="services-hover">
                             <div class="services-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -182,7 +190,7 @@ title: IOCA Chartered Accountants - Tauranga
         </div>
     </section>
 
-    <!-- Clients Aside, removed for now. SB 13/7 
+    <!-- Clients Aside, removed for now. SB 13/7
     <aside class="clients">
         <div class="container">
             <div class="row">
@@ -249,7 +257,11 @@ title: IOCA Chartered Accountants - Tauranga
                           <input style="display:none" type="text" name="_gotcha">
                           <input style="display:none" name="_next" value="/thanks.html" />
                           <!-- /CONFIG -->
-                          <input class="btn btn-xl" type="submit" value="Send">
+                          <input class="btn btn-xl" type="submit" value="Send"
+                          onclick="dataLayer.push({
+                            'event': 'button-click',
+                            'button-clicked': 'contact-form-submit'
+                        });">
                           </div>
                         </form>
                     </div>

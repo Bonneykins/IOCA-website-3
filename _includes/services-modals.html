@@ -7,7 +7,11 @@
     <!-- Services Modal X -->
     <div class="services-modal modal fade" id="servicesModal{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div class="close-modal" data-dismiss="modal"
+              onclick="dataLayer.push({
+              'event': 'dismiss-modal',
+              'dismiss-button-clicked': 'upper-x-button'
+            });">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -23,7 +27,11 @@
                             <img class="img-responsive img-centered" src="{{ service.service-image-path }}" alt="{{ service.service-title }}">
                             <p>{{ service.content }}</p>
                             <!-- maybe no tags are better here than putting content in <p>? SB 10/7 -->
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"
+                            onclick="dataLayer.push({
+                              'event': 'dismiss-modal',
+                              'dismiss-button-clicked': 'lower-text-button'
+                            });"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
                 </div>
