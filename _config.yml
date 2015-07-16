@@ -2,3 +2,6 @@ collections:
   -  what-we-do
   -  services
   -  team
+
+landing-background-image:
+  "/img/mount-2.jpg"
