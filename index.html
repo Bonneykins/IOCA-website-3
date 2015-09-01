@@ -52,7 +52,28 @@ title: Invisible Office Chartered Accountants - Tauranga
                     <h3 class="section-subheading text-muted editable"> Not sure what your needs are? Take advantage of a complimentary initial meeting with one of our accountants. </h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row text-center">
+              {% assign services = site.services | sort: 'display-order' %}
+              {% for service in services %}
+              {% if service.display: "true" %}
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-{{ service.service-icon }} fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                  <div class="row"
+                    <h4 class="what-we-do-section-heading">{{ service.service-title }}</h4>
+                  </div>
+                </div class="row"
+                  <p class="text-muted">{{ service.content }}</p>
+                </div>
+              {% endif %}
+              {% endfor %}
+              <!--Sam, if you reduce this section from 3 sections to two, then you should write an if/else loop above that incorporates this for the 3 loop solution and outputs a 6 grid wide solution for the 2 loop. SB 10/7 -->
+            </div>
+            <!--<div class="row">
               {% assign services = site.services | sort: 'display-order' %}
               {% for service in services %}
                 <div class="col-md-4 col-sm-6 services-item">
@@ -66,7 +87,10 @@ title: Invisible Office Chartered Accountants - Tauranga
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{ service.service-image-path }}" class="img-responsive" alt="{{ service.service-title }}">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-{{ service.service-icon }} fa-stack-1x fa-inverse"></i>
+                        </span>
                     </a>
                     <div class="services-caption">
                         <h4>{{ service.service-title }}</h4>
@@ -74,7 +98,7 @@ title: Invisible Office Chartered Accountants - Tauranga
                     </div>
                 </div>
               {% endfor %}
-            </div>
+            </div>-->
         </div>
     </section>
 

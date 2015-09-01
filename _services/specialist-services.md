@@ -2,7 +2,8 @@
 service-title: Specialist Services
 service-short-description: A range of specialist services outside our standard offerings.
 service-image-path: "/img/services/chair-4.jpg"
-display-order: 3
+display-order: 7
+display: false
 ---
 We offer a range of specialist services including, but not limited to, the following:
 

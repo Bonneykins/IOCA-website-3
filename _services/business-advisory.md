@@ -2,7 +2,8 @@
 service-title: Business Advisory
 service-short-description: Partnering with our clients to achieve their business goals.
 service-image-path: "/img/services/advisory.jpg"
-display-order: 2
+display-order: 5
+display: false
 ---
 With experience across a wide range of business sectors, we are on hand to provide strategic advice to you and your business.
 

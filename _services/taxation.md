@@ -2,7 +2,8 @@
 service-title: Taxation
 service-short-description: Specialists in delivering simple and cost-effective tax solutions.
 service-image-path: "/img/services/ir-1.jpg"
-display-order: 5
+display-order: 8
+display: false
 ---
 The New Zealand tax system is complex. Our experienced tax practitioners specialise in delivering simple and cost-effective tax solutions.
 

@@ -2,7 +2,8 @@
 service-title: Business Services
 service-short-description: Add to your capability without adding to your team.
 service-image-path: "/img/services/calc-paper.jpg"
-display-order: 4
+display-order: 6
+display: false
 ---
 Our business services team can compliment your own team or fill in for missing areas.
 

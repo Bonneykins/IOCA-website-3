@@ -368,6 +368,7 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    text-align: center;
 }
 
 #services .services-item .services-link .services-hover {
