@@ -4,6 +4,7 @@ service-short-description: Many businesses do not have absolute clarity around t
 service-icon: sitemap
 display-order: 3
 display: true
+service-pdf-path: "/pdfs/org-review-ioca.pdf"
 ---
 Many businesses do not have absolute clarity around their team’s defined roles and responsibilities.  This often results in owners wearing too many ‘hats’, meaning they have precious little time to spend in a strategic sense, or on high-level activities that create real value for the business.
 

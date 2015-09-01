@@ -4,6 +4,7 @@ service-short-description: Thinking of switching accountant? Arrange a complimen
 service-icon: user-plus
 display-order: 8
 display: true
+service-pdf-path: "/pdfs/proactive-accounting-meeting-ioca.pdf"
 ---
 If you’re keen to improve your business performance and financial results but don’t feel you are being supported enough by your current accountant - give us a call.  We’ll arrange a complimentary Proactive Accounting Meeting to review your unique situation and discuss how we may be able to support you.  
 

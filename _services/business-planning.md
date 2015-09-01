@@ -4,6 +4,7 @@ service-short-description: A great business planning process gets to the heart a
 service-icon: map-o
 display-order: 2
 display: true
+service-pdf-path: "/pdfs/business-planning-ioca.pdf"
 ---
 A great business planning process gets to the heart and soul of your business.  Upon completion of ‘pre-work’ we’ll have a greater understanding of your vision and core values in order to facilitate a four hour planning session to help you create a clear Business Plan.
 

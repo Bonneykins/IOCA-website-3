@@ -4,6 +4,7 @@ service-short-description: Understand the key drivers in your business.
 service-icon: bar-chart
 display-order: 9
 display: true
+service-pdf-path: "/pdfs/kpi-improvement-coaching-ioca.pdf"
 ---
 We’ve developed this service to enable business owners to understand the key drivers in their business.  The better you understand your business, the easier it will be to increase your profits and free up cashflow.
 
