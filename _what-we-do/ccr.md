@@ -1,5 +1,5 @@
 ---
-section-title: Complimentary Client Review
+section-title: Review
 section-icon: users
 display-order: 1
 ---
