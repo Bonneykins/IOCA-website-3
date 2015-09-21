@@ -2,7 +2,7 @@
 service-title: Business Planning
 service-short-description: A great business planning process gets to the heart and soul of your business.
 service-icon: map-o
-display-order: 2
+display-order: 3
 display: true
 service-pdf-path: "/pdfs/business-planning-ioca.pdf"
 ---

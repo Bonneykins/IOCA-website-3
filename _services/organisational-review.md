@@ -2,7 +2,7 @@
 service-title: Organisational Review
 service-short-description: Many businesses do not have absolute clarity around their team’s defined roles and responsibilities.
 service-icon: sitemap
-display-order: 3
+display-order: 4
 display: true
 service-pdf-path: "/pdfs/org-review-ioca.pdf"
 ---
