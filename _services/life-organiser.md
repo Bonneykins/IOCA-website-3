@@ -3,7 +3,7 @@ service-title: Life Organiser
 service-short-description: The Life Organiser has been designed to provide peace of mind that your affairs are in order and to minimise stress for your loved ones in the event of disability or death.
 service-icon: folder-open-o
 display-order: 7
-display: false
+display: true
 service-pdf-path: "/pdfs/life-org-ioca.pdf"
 ---
 The Life Organiser has been designed to provide peace of mind that your affairs are in order and to minimise stress for your loved ones in the event of disability or death.  It is a structured central register for you to complete, covering a raft of personal, financial, property, insurance and business details that should be documented and stored securely.
