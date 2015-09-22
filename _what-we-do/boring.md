@@ -3,4 +3,4 @@ section-title: Sort the boring bits
 section-icon: check-square-o
 display-order: 2
 ---
-Yes, we still do the traditional stuff like compliance and tax that you want your accountant to sort as quickly and painlessly as possible.
+In New Zealand there are tax compliance tasks that every business has to do. We help you sort these as quickly and painlessly as possible.
