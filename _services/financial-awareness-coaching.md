@@ -2,7 +2,7 @@
 service-title: Financial Awareness Coaching
 service-short-description: We’ll help you to understand your business better, enabling you to better manage your cash flow.
 service-icon: usd
-display-order: 4
+display-order: 10
 display: true
 service-pdf-path: "/pdfs/financial-awareness-coaching-ioca.pdf"
 ---
