@@ -661,8 +661,8 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: #68abcf;
+    /* background-image: url(../img/map.png); */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -883,7 +883,8 @@ body {
 }
 
 .contact-text{
-   color: #fff
+   color: #fff;
+   text-transform: none;
 }
 
 .modal-body-text-left {
@@ -893,4 +894,8 @@ body {
 .cta-text {
   color: #4494bd;
   text-transform: none
+}
+
+.text-muted-contact {
+  color: #fff;
 }
