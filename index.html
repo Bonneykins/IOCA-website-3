@@ -70,7 +70,11 @@ title: Invisible Office Chartered Accountants - Tauranga
                 <div class="col-sm-8">
                   <h4 class="what-we-do-section-heading">{{ service.service-title }}</h4>
                   <p class="text-muted">{{ service.content }}</p>
-                  <p class="text-muted">More info on <a href="{{ service.service-pdf-path }}">{{ service.service-title }}</a></p>
+                  <p class="text-muted">More info on <a href="{{ service.service-pdf-path }}"
+                                                      onclick="dataLayer.push({
+                                                      'event': 'service-click',
+                                                      'service-clicked': '{{ service.service-title }}'
+                                                      });">{{ service.service-title }}</a></p>
                 </div>
             </div>
               {% endif %}
