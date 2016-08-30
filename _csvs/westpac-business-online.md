@@ -11,6 +11,8 @@ Create a "New Export Profile"
 
 ![Westpac Business Online Banking create export profile screenshot](/img/csvs/wpbo2.png)
 
+
+
 Name the profile, the file to be generated (unimportant really), and select the format 'CSV dd/mm/yyyy'.   
 
 Then select the relevant account and date range.   
