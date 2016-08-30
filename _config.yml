@@ -2,6 +2,8 @@ collections:
   -  what-we-do
   -  services
   -  team
+  -  resources
+  -  csvs
 
 landing-background-image:
   "/img/mount-2.jpg"

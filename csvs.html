@@ -1,0 +1,63 @@
+---
+layout: thanks
+title: Downloading CSV files from NZ Banks
+---
+
+<section id="CSV">
+    <div class="container">
+        <div class="row row-buffer">
+            <div class="col-xs-6 col-xs-offset-3">
+              <img class="img-responsive" src="/img/logos/IOCA-logo-trans.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-xs-offset-1">
+                <h3 class="editable">Downloading a CSV file from your bank (ASB, ANZ, Kiwibank, Westpac)</h3>
+
+                <p class="Editable">At IOCA we use Xero. Xero gets electronic copies of your bank statement data directly from the bank in the form of “Bank Feeds”.</p>
+                <p class="Editable">Getting this data digitally creates one of the big time savings in Xero - neither of us has to enter this information into Xero by hand.</p>
+                <p class="Editable">One of the tricks with Bank Feeds though is that we can only access data through them going forwards in time. We can’t access any bank
+                  transaction information before your Bank Feed was activated. This means past data either has to be entered by hand or the data is sourced from internet banking.</p>
+                <p class="Editable">This is is why we may ask for your help - because only you have access to your online banking history.</p>
+                <p class="Editable">Unfortunately, all the different banks have different methods for getting your transaction data out of internet banking.
+                  The guide below should help you do this if you belong to the major NZ banks.</p>
+
+                <h3 class="Editable">How to do it</h3>
+
+                <p class="Editable">Each bank differs slightly so after the more generic instructions (which should help with most banks, not just these four)
+                   there are screenshots for each of the major banks that will show you exactly what you are looking for.</p>
+                <h4 class="text-muted">How to get CSV files from your bank:</h4>
+                <ol>
+                  <li>Log into your online banking</li>
+                  <li>Select the account you want to download a CSV for</li>
+                  <li>Find a “view statements” or “view transaction history” or similar tab and click on it</li>
+                  <li>Insert the date range we have asked you for</li>
+                  <li>Make sure you select the CSV option as the "Output" or "Format"</li>
+                  <li>Click "Export", "Save" or "Download" and the file will be saved to wherever your computer usually saves files</li>
+                  <li>Don’t open the file as you can corrupt it</li>
+                  <li>Now go into your email and set up an email to your client manager here at IOCA and attach the file and subject it “CSV files for IOCA”</li>
+                  <li>Send it to us :)</li>
+                </ol>
+
+                <p>If you still have problems give us a ring to arrange some more hands on help - you can come to us or we can come to you.</p>
+
+                </br>
+
+                {% assign banks = site.csvs | sort: 'display-order' %}
+                {% for bank in banks %}
+
+                <h3>{{ bank.bank-name }}</h3>
+                </br>
+                {{ bank.content }}
+                </br>
+                </br>
+                {% endfor %}
+
+
+            </div>
+        </div>
+        <div class="row text-center">
+          <a href="/" class="btn btn-xl">Return to main site</a>
+        </div>
+    </div>
+</section>

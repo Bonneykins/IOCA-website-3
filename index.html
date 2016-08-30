@@ -59,7 +59,7 @@ title: Invisible Office Chartered Accountants - Tauranga
             </div>
               {% assign services = site.services | sort: 'display-order' %}
               {% for service in services %}
-              {% if service.display: "true" %}
+              {% if service.display == true %}
             <div class="row padding">
                 <div class="col-sm-offset-1 col-sm-2 text-center">
                   <span class="fa-stack fa-4x">
@@ -260,6 +260,40 @@ title: Invisible Office Chartered Accountants - Tauranga
             </div>
         </div>
     </aside> -->
+
+    <!-- Help Section -->
+  <section id="help">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading editable">Help</h2>
+                  <h3 class="section-subheading text-muted editable"> Resources to help our clients get things done </h3>
+              </div>
+          </div>
+            {% assign resources = site.resources | sort: 'display-order' %}
+            {% for resource in resources %}
+            {% if resource.display == true %}
+          <div class="row padding">
+          <!--    <div class="col-sm-offset-1 col-sm-2 text-center">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-{{ resource.service-icon }} fa-stack-1x fa-inverse"></i>
+                </span>
+              </div> -->
+              <div class="col-sm-12">
+                <h4 class="what-we-do-section-heading">{{ resource.resource-title }}</h4>
+                <p class="text-muted">{{ resource.resource-short-description }}</p>
+                <p class="text-muted">More info on <a href="{{ resource.resource-pdf-path }}"
+                                                    onclick="dataLayer.push({
+                                                    'event': 'resource-click',
+                                                    'resource-clicked': '{{ resource.resource-title }}'
+                                                  });">{{ resource.resource-title }}</a></p>
+              </div>
+          </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact">
