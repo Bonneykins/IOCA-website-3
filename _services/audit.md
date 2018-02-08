@@ -4,7 +4,7 @@ service-short-description:
 service-icon: search
 display-order: 2.5
 display: true
-service-pdf-path: "/"
+service-pdf-path: "/currently-bare"
 ---
 The Invisible Office has a great reputation for providing high quality audit and assurance services to a wide range of clients throughout the Bay of Plenty and beyond.
 
