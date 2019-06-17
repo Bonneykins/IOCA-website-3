@@ -2,7 +2,7 @@
 resource-title: Downloading CSV's
 resource-short-description: From time to time we may request a CSV file from your online banking. It can be confusing if you don't do it regularly. We put together this guide to help.
 resource-icon: book
-display-order: 1
+display-order: 2
 display: true
 resource-pdf-path: "/csvs.html"
 ---
