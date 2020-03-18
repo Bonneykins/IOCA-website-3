@@ -4,6 +4,7 @@ collections:
   -  team
   -  resources
   -  csvs
+  -  covid
 
 landing-background-image:
   "/img/mount-2.jpg"
