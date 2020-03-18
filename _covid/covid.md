@@ -1,5 +1,5 @@
 ---
-covid-title: IOCA COVID-19 Policy
+covid-title: COVID-19 Policy
 covid-short-description:
 covid-icon: exclamation
 display-order: 1

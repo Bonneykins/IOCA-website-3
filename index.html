@@ -18,7 +18,7 @@ title: Invisible Office Chartered Accountants - Tauranga
     </header>
 
 <!-- Covid Section -->
-<section id="covid" class="bg-red">
+<section id="covid" class="bg-light-gray">
     <div class="container">
           {% assign covids = site.covid | sort: 'display-order' %}
           {% for covid in covids %}
@@ -26,14 +26,14 @@ title: Invisible Office Chartered Accountants - Tauranga
         <div class="row">
             <div class="col-sm-offset-1 col-sm-2 text-center">
               <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-circle fa-stack-2x text-red"></i>
                   <i class="fa fa-{{ covid.covid-icon }} fa-stack-1x fa-inverse"></i>
               </span>
             </div>
             <div class="col-sm-8">
               <h4 class="what-we-do-section-heading">{{ covid.page-title }}</h4>
               <p class="text-muted">{{ covid.content }}</p>
-              <p class="text-white">More info on <a href="{{ covid.covid-pdf-path }}"
+              <p class="text-muted">More info on our <a href="{{ covid.covid-pdf-path }}"
                                                   onclick="dataLayer.push({
                                                   'event': 'covid-click',
                                                   'covid-clicked': '{{ covid.covid-title }}'

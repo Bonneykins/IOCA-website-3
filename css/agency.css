@@ -18,6 +18,10 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.text-red {
+    color: rgb(230, 97, 97);
+}
+
 .text-primary {
     color: #4494bd;
 }
