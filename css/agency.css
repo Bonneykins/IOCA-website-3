@@ -22,6 +22,10 @@ body {
     color: rgb(230, 97, 97);
 }
 
+.text-yellow {
+	color: rgb(228, 225, 72);
+}
+
 .text-primary {
     color: #4494bd;
 }

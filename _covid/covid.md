@@ -1,15 +1,15 @@
 ---
 covid-title: COVID-19 Policy
 covid-short-description:
-covid-icon: exclamation
+covid-icon: exclamation-triangle
 display-order: 1
 display: true
 covid-pdf-path: "/pdfs/IOCA-covid-19-policy.pdf"
 ---
-The Invisible Office is taking the developing COVID-19 situation seriously and has put policies in place to ensure the safety of our staff and clients.
+COVID-19 Update
 
-As of Monday 23 March, our office has closed and our team is working remotely.
+Our team is now working back in the office at 95 Devonport Road.
 
-While our team is working remotely, business continues as usual.
+We are happy to meet you in person but social distancing and contact tracing measures will be in place.
 
-We can still be contacted on the usual phone number and email addresses.
+If you would prefer, our team is always happy to meet via Zoom.
