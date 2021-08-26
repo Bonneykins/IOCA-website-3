@@ -8,8 +8,4 @@ covid-pdf-path: "/pdfs/IOCA-covid-19-policy.pdf"
 ---
 COVID-19 Update
 
-Our team is now working back in the office at 95 Devonport Road.
-
-We are happy to meet you in person with social distancing and contact tracing measures in place.
-
-If you would prefer, our team is always happy to meet via Zoom.
+Our team is currently working from home, however we are always happy to meet via Zoom.
