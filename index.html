@@ -18,7 +18,8 @@ title: Invisible Office Chartered Accountants - Tauranga
     </header>
 
 <!-- Covid Section -->
-<section id="covid" class="bg-light-gray">
+<!-- 1 | To enable the covid section again uncomment numbers 1 and 2 (leaving the commented section below for "more info..."
+<!<section id="covid" class="bg-light-gray">
     <div class="container">
           {% assign covids = site.covid | sort: 'display-order' %}
           {% for covid in covids %}
@@ -33,18 +34,21 @@ title: Invisible Office Chartered Accountants - Tauranga
             <div class="col-sm-8">
               <h4 class="what-we-do-section-heading">{{ covid.page-title }}</h4>
               <p class="text-muted">{{ covid.content }}</p>
+1 -->
             <!--  <p class="text-muted">More info on our <a href="{{ covid.covid-pdf-path }}"
                                                   onclick="dataLayer.push({
                                                   'event': 'covid-click',
                                                   'covid-clicked': '{{ covid.covid-title }}'
                                                   });">{{ covid.covid-title }}</a></p>
             -->
+<!-- 2            
             </div>
         </div>
           {% endif %}
           {% endfor %}
     </div>
 </section>
+2 -->
 
     <!-- what-we-do Section -->
     <section id="what-we-do">
