@@ -917,7 +917,7 @@ body {
 }
 
 img.footer-image { /* Just to make CAANZ Logo the right height */
-  width: auto;
+  width: 100%;
   height: 100px;
   object-fit: contain;
 }
