@@ -917,11 +917,14 @@ body {
 }
 
 img.footer-image { /* Just to make CAANZ Logo the right height */
-  width: auto;height: 100px;
+  width: auto;
+  height: 100px;
+  object-fit: contain;
 }
 
 img.story-image { /* Just to make CAANZ Logo the right height */
-  width: auto;height: 150px;
+  width: auto;
+  height: 150px;
 }
 
 .divider { /* Was going to use for dividing CAANZ logo off from the other logos. Very difficult */
